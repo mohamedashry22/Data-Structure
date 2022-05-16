@@ -126,6 +126,10 @@ https://www.cs.usfca.edu/~galles/visualization/OpenHash.html
 
 <img width="1042" alt="Screen Shot 2022-05-16 at 3 48 07 AM" src="https://user-images.githubusercontent.com/37994931/168506580-12cdd6f2-e83d-408f-a375-94de8656c1bd.png">
 
+the collision something like this picture
+we have keys that will be stored inside buckets and every bucket has mapped address space , we see that ahmed and yousef have the same space that named as collision and because this collision we need to store both somehow in this space so we points to the overflow. and just hint here this is the linked list data structure coming up, so with hashtable we cannot avoid this collision 
+
+when we have collision , it slows down reading and writing so the hashtable will be `O(n/k)` where is k is the size of your hashtable and we remove constants in time complexity so the complexity would be `O(n)`
 
 
 
