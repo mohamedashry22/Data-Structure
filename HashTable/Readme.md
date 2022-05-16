@@ -105,14 +105,14 @@ then if i insert (3)
 
 so the memory will be like this 
 > [0] [1] [2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12]
-  [ ] [1] [ ] [3] [ ] [ ] [ ] [ ] [ ] [ ] [  ] [  ] [  ]
+> [ ] [1] [ ] [3] [ ] [ ] [ ] [ ] [ ] [ ] [  ] [  ] [  ]
   
 then if i insert (14)
 
 so the memory will be like this 
 > [0] [1]  [2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12]
-  [ ] [1]  [ ] [3] [ ] [ ] [ ] [ ] [ ] [ ] [  ] [  ] [  ]
-  [ ] [14] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [  ] [  ] [  ]
+> [ ] [1]  [ ] [3] [ ] [ ] [ ] [ ] [ ] [ ] [  ] [  ] [  ]
+> [ ] [14] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [  ] [  ] [  ]
 
 so what happend ? the hash function randomly added the space in memory and put in (1) and this is the collision 
 as here we have only 12 spaces so if i add 14 it counts 2 spaces after 12 and then put it inside and if i insert 15 it will be in (2)
