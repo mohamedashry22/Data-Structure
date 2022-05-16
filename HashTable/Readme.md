@@ -99,19 +99,23 @@ so if i insert (1)
 
 so the memory will be like this 
 > [0] [1] [2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12]
+
   [ ] [1] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [  ] [  ] [  ]
   
 then if i insert (3)
 
 so the memory will be like this 
 > [0] [1] [2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12]
+
 > [ ] [1] [ ] [3] [ ] [ ] [ ] [ ] [ ] [ ] [  ] [  ] [  ]
   
 then if i insert (14)
 
 so the memory will be like this 
 > [0] [1]  [2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12]
+
 > [ ] [1]  [ ] [3] [ ] [ ] [ ] [ ] [ ] [ ] [  ] [  ] [  ]
+
 > [ ] [14] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [ ] [  ] [  ] [  ]
 
 so what happend ? the hash function randomly added the space in memory and put in (1) and this is the collision 
